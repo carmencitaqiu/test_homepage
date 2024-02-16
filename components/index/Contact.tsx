@@ -1,8 +1,8 @@
 import styles from "./index.module.scss";
 export default function Contact() {
     return (
-        <div className="w-full h-[640px] flex" >
-            <div className="w-[32%] bg-100%" style={{backgroundImage: 'url("/static/images/contact.png")'}}></div>
+        <div className="mx-auto container h-[640px] flex" >
+            <div className="w-2/5 bg-100%" style={{backgroundImage: 'url("/static/images/contact.png")'}}></div>
             <div className="flex-1  bg-white-2 pt-16 pl-16 pr-28">
                 <div className="text-black-2 text-5xl">Contactez-nous</div>
                 <div className="mt-16  mb-5" >

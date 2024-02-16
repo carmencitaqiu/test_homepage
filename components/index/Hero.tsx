@@ -15,11 +15,8 @@ export default function Hero() {
                       <p className="text-2xl font-normal text-white w-2/3 mt-4">
                         La qualité de l’air qu’on respire est plus importante que jamais, c’est pourquoi nous offrons les meilleurs produits disponibles sur le marché. 
                       </p>
-                      <div className="h-12  bg-green-1 flex items-center justify-center mt-9 space-x-5  px-4 cursor-pointer">
-                        <div className="uppercase text-white text-lg font-medium ">VOIR TOUS LES PRODUITS</div>
-                        <div className="mt-2">
-                          <Image src="/static/icons/right_arrow.svg" width={30} height={30} alt="right_arrow" />
-                        </div>
+                      <div className="h-12  bg-white flex items-center justify-center mt-9 space-x-5  px-4 cursor-pointer">
+                        <div className="uppercase text-green-1 text-sm font-medium ">VOIR TOUS LES PRODUITS</div>
                       </div>
                   </div>
                 </div>
@@ -30,7 +27,7 @@ export default function Hero() {
                   <div className="absolute left-[5%] top-1/2 -translate-y-1/2  w-8/12 text-left flex flex-col items-start">
                       <p className="text-4xl font-medium text-white">Lavage de filtres <br/> résidentiel et commercial</p>
                       <div className="h-12  bg-green-1 flex items-center justify-center mt-9 space-x-5  px-4 cursor-pointer">
-                        <div className="uppercase text-white text-lg font-medium ">DÉCOUVREZ CE SERVICE</div>
+                        <div className="uppercase text-white text-sm font-medium ">DÉCOUVREZ CE SERVICE</div>
                         <div className="mt-2">
                           <Image src="/static/icons/right_arrow.svg" width={30} height={30} alt="right_arrow" />
                         </div>
@@ -45,7 +42,7 @@ export default function Hero() {
                   <div className="absolute left-[5%] top-1/2 -translate-y-1/2  w-8/12 text-left flex flex-col items-start">
                       <p className="text-4xl  font-medium text-white">Créez un compte commercial<br/> pour bénéficier d’escomptes <br/> exclusifs !</p>
                       <div className="h-12  bg-green-1 flex items-center justify-center mt-9 space-x-5  px-4 cursor-pointer">
-                        <div className="uppercase text-white text-lg font-medium">OUVRIR UN COMPTE COMMERCIAL</div>
+                        <div className="uppercase text-white text-sm font-medium">OUVRIR UN COMPTE COMMERCIAL</div>
                         <div className="mt-2">
                           <Image src="/static/icons/right_arrow.svg" width={30} height={30} alt="right_arrow" />
                         </div>

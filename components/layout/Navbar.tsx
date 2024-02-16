@@ -18,8 +18,8 @@ export default function Navbar() {
     <div
       className="bg-green-1"
     >
-      <div className="mx-auto container flex items-center justify-between relative py-5 text-white">
-        <div className="flex items-center text-lg font-medium ">
+      <div className="mx-auto container flex items-center justify-between relative py-3 text-white">
+        <div className="flex items-center text-base font-medium ">
           <div className="relative after:contents-[''] after:absolute after:w-0.5 after:h-1/2 after:bg-white after:right-0 after:top-1/2 after:-translate-y-1/2 px-2">Résidentiel</div>
           <div className="relative after:contents-[''] after:absolute after:w-0.5 after:h-1/2 after:bg-white after:right-0 after:top-1/2 after:-translate-y-1/2 px-2">Commercial</div>
           <div className="relative px-2">Industriel</div>
