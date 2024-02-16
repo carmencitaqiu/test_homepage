@@ -43,10 +43,10 @@ export default function Navbar() {
 
     <div className="bg-white ">
       <div className="mx-auto container flex items-center justify-between py-4">
-        <div className="2xl:w-[225px] 2xl:h-[113px] w-[100px] h-[48px] bg-100%" style={{backgroundImage: 'url("/static/images/logo.png")'}}>
+        <div className=" w-[100px] h-[48px] bg-100%" style={{backgroundImage: 'url("/static/images/logo.png")'}}>
         </div>
         <div className="flex items-center flex-1">
-            <div className="flex items-center space-x-4 2xl:space-x-13 text-green-1 text-sm 2xl:text-lg font-medium">
+            <div className="flex items-center space-x-4 text-green-1 text-sm  font-medium">
               <Link href="/">Accueil</Link>
               <Link href="/">À propos</Link>
               <Link href="/">Services</Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
               <Link href="/">Marques</Link>
               <Link href="/">Fabrication sur mesure</Link>
             </div>
-            <div className="flex items-center  space-x-2 ml-4 2xl:ml-21">
+            <div className="flex items-center  space-x-2 ml-4">
               <div className="text-green-1 text-lg font-medium">FR</div>
               <div className="cursor-pointer">
                 <Image src="/static/images/dropdown.svg" width={14} height={12} alt="dropdown" />
@@ -64,7 +64,7 @@ export default function Navbar() {
               <Image src="/static/images/search.svg" width={24} height={24} alt="search" />
               <input className={`flex-1 h-full ${styles.cInput} text-green-1 text-lg font-medium`} placeholder="Rechercher"/>
             </div>
-            <div className="2xl:ml-8 ml-2 cursor-pointer h-[50px] w-[150px] 2xl:w-[187px] flex items-center justify-center text-white bg-green-1 2xl:text-lg text-base font-medium rounded-xl">
+            <div className="ml-2 cursor-pointer h-[50px] w-[150px] flex items-center justify-center text-white bg-green-1  text-base font-medium rounded-xl">
               Contactez-nous
             </div>
         </div>

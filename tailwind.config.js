@@ -107,9 +107,6 @@ module.exports = {
           '@screen xl': {
             maxWidth: '1100px',
           },
-          '@screen 2xl': {
-            maxWidth: '1560px',
-          },
         }
       })
     }
