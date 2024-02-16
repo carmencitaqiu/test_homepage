@@ -1,7 +1,7 @@
 
 export default function Services() {
     return (
-        <div className="mx-auto container flex  justify-between h-[500px] mt-20 mb-10">
+        <div className="mx-auto container flex  justify-between mt-20 mb-10">
             <div className="w-1/3">
                 <div className="text-2xl text-black-5 tracking-wide">NOS SERVICE D’EXPERTS</div>
                 <p className="text-6xl text-black-5">Service techniqueen filtration</p>

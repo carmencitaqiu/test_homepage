@@ -10,6 +10,7 @@ import Intro from "../components/index/Intro";
 import Solutions from "../components/index/Solutions";
 import Banner from "../components/index/Banner";
 import Services from "../components/index/Services";
+import Optimiser from "../components/index/Optimiser";
 const Home: NextPage = () => {
 
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
          <Solutions />
          <Banner />
          <Services />
+         <Optimiser />
       </div>
     </Layout>
   );
