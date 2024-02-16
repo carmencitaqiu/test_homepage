@@ -2,9 +2,9 @@
 export default function Services() {
     return (
         <div className="mx-auto container flex  justify-between mt-20 mb-10">
-            <div className="w-1/3">
+            <div className="w-[30%]">
                 <div className="text-2xl text-black-5 tracking-wide">NOS SERVICE D’EXPERTS</div>
-                <p className="text-6xl text-black-5">Service techniqueen filtration</p>
+                <p className="text-[56px] leading-none text-black-5">Service technique en filtration</p>
             </div>
             <div className="w-1/2">
                 <div className="relative after:absolute after:w-full after:top-0 after:bg-black-3 after:h-0.5 flex items-center justify-between">

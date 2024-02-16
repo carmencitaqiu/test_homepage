@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="relative w-full  rounded-lg bg-100%   h-[640px] " style={{backgroundImage: 'url("/static/images/swiper1.png")'}}>
                   <div className="absolute left-[5%] top-1/2 -translate-y-1/2  w-8/12 text-left flex flex-col items-start">
                       <p className="text-4xl  font-medium text-white">Votre source de confiance <br/> en approvisionnement de filtres</p>
-                      <p className="text-2xl font-normal text-white w-2/3 mt-4">
+                      <p className="text-base font-normal text-white w-2/3 mt-4">
                         La qualité de l’air qu’on respire est plus importante que jamais, c’est pourquoi nous offrons les meilleurs produits disponibles sur le marché. 
                       </p>
                       <div className="h-12  bg-white flex items-center justify-center mt-9 space-x-5  px-4 cursor-pointer">

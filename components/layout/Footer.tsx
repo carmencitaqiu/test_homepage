@@ -10,7 +10,7 @@ export default function Footer() {
                 </div>
                 <div className="flex-1 flex space-x-4">
                 <div className="text-base  text-black-2 text-right">Partenair <br/> eofficiel</div>
-                    <div className="w-[120px] h-[64px] bg-100%" style={{backgroundImage: 'url("/static/images/swiper3_right.png")'}}></div>
+                    <div className="w-[140px] h-[54px] bg-100%" style={{backgroundImage: 'url("/static/images/swiper3_right.png")'}}></div>
                 </div>
                 <div className="">
                     <div style={{color: 'rgba(50,59,75,1)'}} className="text-base mb-8">Alpha Filtration</div>
