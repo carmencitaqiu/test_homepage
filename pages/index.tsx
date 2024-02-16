@@ -9,6 +9,7 @@ import Products from "../components/index/Products";
 import Intro from "../components/index/Intro";
 import Solutions from "../components/index/Solutions";
 import Banner from "../components/index/Banner";
+import Services from "../components/index/Services";
 const Home: NextPage = () => {
 
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
          <Intro />
          <Solutions />
          <Banner />
+         <Services />
       </div>
     </Layout>
   );
