@@ -12,6 +12,7 @@ import Banner from "../components/index/Banner";
 import Services from "../components/index/Services";
 import Optimiser from "../components/index/Optimiser";
 import Pratiques from "../components/index/Pratiques";
+import Vous from "../components/index/Vous";
 const Home: NextPage = () => {
 
   return (
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
          <Services />
          <Optimiser />
          <Pratiques />
+         <Vous />
       </div>
     </Layout>
   );
