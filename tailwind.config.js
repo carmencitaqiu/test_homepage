@@ -35,8 +35,8 @@ module.exports = {
       colors: {
         "white-1": "#f5f5f5",
         "white-2": "#cbcff7",
-        "white-3": "#cbcdd3",
-        "white-4": "rgba(255, 255, 255,.1)",
+        "white-3": "rgba(250, 250, 250,1)",
+        "white-4": "rgba(255, 255, 255,1)",
         "white-5": "#ccc",
         "gray-1": "#fafaff",
         "gray-2": "#eef2fa",

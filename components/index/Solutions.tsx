@@ -21,7 +21,7 @@ export default function Solutions() {
                                             <div className="w-full">
                                                 <div className="flex items-center w-full space-x-4">
                                                     <div className="w-16 h-16  bg-green-1 flex items-center justify-center rounded-full">
-                                                        <Image src="/static/icons/solutions/Residential.svg" width={24} height={24} alt="Residential" />
+                                                        <Image src="/static/icons/solutions/residential.svg" width={24} height={24} alt="Residential" />
                                                     </div>
                                                     <div className="text-4xl text-black-2">Résidentiel</div>
                                                 </div>
