@@ -13,6 +13,7 @@ import Services from "../components/index/Services";
 import Optimiser from "../components/index/Optimiser";
 import Pratiques from "../components/index/Pratiques";
 import Vous from "../components/index/Vous";
+import Contact from "../components/index/Contact";
 const Home: NextPage = () => {
 
   return (
@@ -27,6 +28,7 @@ const Home: NextPage = () => {
          <Optimiser />
          <Pratiques />
          <Vous />
+         <Contact />
       </div>
     </Layout>
   );

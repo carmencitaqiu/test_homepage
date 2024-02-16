@@ -40,3 +40,28 @@
         z-index: 0;
     }
 }
+
+.cInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(108, 86, 87, 1);
+    background:none;
+    &:focus,
+    &:active {
+      background-image: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid rgba(108, 86, 87, 1);
+      outline: none;
+    }
+    &::webkit-input-placeholder {
+        opacity: 0.38;
+        color: #326d4a;
+    }
+    &::placeholder {
+        opacity: 0.38;
+        color: #326d4a;
+    }
+}
