@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./form.scss";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  //   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Manrope !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.linearText {
+  background-image:linear-gradient(to right,#00F7DA,#0898FE);   
+  -webkit-background-clip:text; 
+  -webkit-text-fill-color:transparent; 
+}
+.linearTitle {
+  background: linear-gradient(225deg, #0898FE 0%, #00F7DA 100%), #EE9736;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.processContent {
+  background: linear-gradient(180deg, #1024AA 0%, #040D64 100%);
+}
+
+.hide-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.swiper-button-next {
+  &::after {
+    color: #326d4a !important;
+  }
+}
+
+.swiper-button-prev {
+  &::after {
+    color: #326d4a !important;
+  }
+}
