@@ -7,6 +7,8 @@ import Layout from "../components/layout/Layout";
 import Hero from "../components/index/Hero";
 import Products from "../components/index/Products";
 import Intro from "../components/index/Intro";
+import Solutions from "../components/index/Solutions";
+import Banner from "../components/index/Banner";
 const Home: NextPage = () => {
 
   return (
@@ -15,6 +17,8 @@ const Home: NextPage = () => {
          <Hero />
          <Products />
          <Intro />
+         <Solutions />
+         <Banner />
       </div>
     </Layout>
   );

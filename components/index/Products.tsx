@@ -23,8 +23,8 @@ export default function Products() {
                         new Array(10).fill("").map((item, index) => (
                             <SwiperSlide className="!overflow-visible " key={index}>
                                 <div>
-                                    <div className="w-full h-[440px]  bg-white-1 rounded-3xl relative !overflow-visible">
-                                        <div className="absolute z-10 -top-24 left-1/2 w-[488px] h-[488px] bg-contain -translate-x-1/2" style={{backgroundImage: 'url("/static/images/product1.png")'}}>
+                                    <div className="w-full h-[344px]  bg-white-1 rounded-3xl relative !overflow-visible">
+                                        <div className="absolute z-10 -top-16 left-1/2 w-96 h-96 bg-contain -translate-x-1/2" style={{backgroundImage: 'url("/static/images/product1.png")'}}>
                                         </div>
                                         <div className="absolute bottom-6 left-4  font-medium text-left">Filtration moléculaire</div>
                                     </div>
