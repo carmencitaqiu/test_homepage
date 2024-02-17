@@ -13,26 +13,26 @@ export default function Footer() {
                     <div className="w-[140px] h-[54px] bg-100%" style={{backgroundImage: 'url("/static/images/swiper3_right.png")'}}></div>
                 </div>
                 <div className="">
-                    <div style={{color: 'rgba(50,59,75,1)'}} className="text-base mb-8">Alpha Filtration</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Accueil</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">À propos</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Produits</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Infos pratiques</div>
+                    <div  className="text-base mb-6 text-gray-1">Alpha Filtration</div>
+                    <div  className="text-sm text-gray-2 mb-2">Accueil</div>
+                    <div  className="text-sm text-gray-2 mb-2">À propos</div>
+                    <div  className="text-sm text-gray-2 mb-2">Produits</div>
+                    <div  className="text-sm text-gray-2 mb-2">Infos pratiques</div>
                 </div>
                 <div className="">
-                    <div style={{color: 'rgba(50,59,75,1)'}} className="text-base mb-8">Produits</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Accueil</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">À propos</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Produits</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Infos pratiques</div>
+                    <div  className="text-base mb-6 text-gray-1">Produits</div>
+                    <div  className="text-sm text-gray-2 mb-2">Accueil</div>
+                    <div  className="text-sm text-gray-2 mb-2">À propos</div>
+                    <div  className="text-sm text-gray-2 mb-2">Produits</div>
+                    <div  className="text-sm text-gray-2 mb-2">Infos pratiques</div>
                 </div>
 
                
                 <div className="flex-1">
-                    <div style={{color: 'rgba(50,59,75,1)'}} className="text-[rgba(50,59,75,1)] text-base mb-8">Informations</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Politique de retour et de livraison</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Politique de confidentialité</div>
-                    <div style={{color: 'rgba(93, 106, 131, 1)'}} className="text-sm">Conditions générales de vente</div>
+                    <div  className="text-base mb-6 text-gray-1">Informations</div>
+                    <div  className="text-sm text-gray-2 mb-2">Politique de retour et de livraison</div>
+                    <div  className="text-sm text-gray-2 mb-2">Politique de confidentialité</div>
+                    <div  className="text-sm text-gray-2 mb-2">Conditions générales de vente</div>
                 </div>
             </div>
         </div>

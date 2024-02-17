@@ -1,7 +1,7 @@
 
 import Head from 'next/head'
 import Navbar from "./Navbar";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 type Props = {
     children: React.ReactNode
 }
@@ -19,7 +19,7 @@ export default function Layout(props: Props) {
             <div>
                 <Navbar />
                 {children}
-                {/* <Footer /> */}
+                <Footer />
             </div>
         </>
     )

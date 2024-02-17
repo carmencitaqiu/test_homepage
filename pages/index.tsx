@@ -14,7 +14,6 @@ import Optimiser from "../components/index/Optimiser";
 import Pratiques from "../components/index/Pratiques";
 import Vous from "../components/index/Vous";
 import Contact from "../components/index/Contact";
-import Footer from "../components/layout/Footer";
 const Home: NextPage = () => {
 
   return (
@@ -30,7 +29,6 @@ const Home: NextPage = () => {
          <Pratiques />
          <Vous />
          <Contact />
-         <Footer />
       </div>
     </Layout>
   );
