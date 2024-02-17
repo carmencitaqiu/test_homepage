@@ -7,31 +7,40 @@ import 'swiper/css/navigation';
 export default function Solutions() {
     const arr = [{
         title: 'Résidentiel',
-        imgSrc: 'residential.png'
+        imgSrc: 'residential.png',
+        imgIcon: 'residential.svg'
     },{
         title: 'Commercial',
-        imgSrc: 'commercial.png'
+        imgSrc: 'commercial.png',
+        imgIcon: 'commercial.svg'
     },{
         title: 'Industriel',
-        imgSrc: 'industriel.png'
+        imgSrc: 'industriel.png',
+        imgIcon: 'industriel.svg'
     },{
         title: 'Institutionnel',
-        imgSrc: 'institutionnel.png'
+        imgSrc: 'institutionnel.png',
+        imgIcon: 'residential.svg'
     },{
         title: 'Cimenterie',
-        imgSrc: 'cimenterie.png'
+        imgSrc: 'cimenterie.png',
+        imgIcon: 'commercial.svg'
     },{
         title: 'Cannabis',
-        imgSrc: 'cannabis.png'
+        imgSrc: 'cannabis.png',
+        imgIcon: 'industriel.svg'
     },{
         title: 'Minier',
-        imgSrc: 'minier.png'
+        imgSrc: 'minier.png',
+        imgIcon: 'residential.svg'
     },{
         title: 'Construction',
-        imgSrc: 'construction.png'
+        imgSrc: 'construction.png',
+        imgIcon: 'commercial.svg'
     },{
         title: 'Aviation',
-        imgSrc: 'aviation.png'
+        imgSrc: 'aviation.png',
+        imgIcon: 'industriel.svg'
     }]
     return (
         <div className="w-full mt-28 mb-16">
@@ -47,7 +56,7 @@ export default function Solutions() {
                                             <div className="w-full">
                                                 <div className="flex items-center w-full space-x-4">
                                                     <div className="w-16 h-16  bg-green-1 flex items-center justify-center rounded-full">
-                                                        <Image src="/static/icons/solutions/residential.svg" width={24} height={24} alt="Residential" />
+                                                        <Image src={`/static/icons/solutions/${item.imgIcon}`} width={24} height={24} alt="Residential" />
                                                     </div>
                                                     <div className="text-4xl text-black-2">{item.title}</div>
                                                 </div>

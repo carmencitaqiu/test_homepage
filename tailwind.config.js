@@ -89,6 +89,9 @@ module.exports = {
       },
       backgroundSize: {
         '100%': '100% 100%',
+      },
+      borderRadius: {
+        '4xl': '32px'
       }
     },
   },
