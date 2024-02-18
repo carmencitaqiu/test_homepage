@@ -11,7 +11,7 @@ export default function Pratiques () {
                         <div className="text-sm">11 janvier 2024</div>
                         <div className="text-base font-medium mt-3">Lorem ipsum dolor almet</div>
                         <p className="w-7/8 text-xs mt-2">Integer laoreet vehicula risus, at imperdiet risus tempor a. Sed arcu neque, dictum id.</p>
-                        <div className="mt-4 w-8 h-8 bg-black flex items-center justify-center rounded-full">
+                        <div className="mt-4 w-8 h-8 bg-black flex items-center justify-center rounded-full cursor-pointer">
                             <img src="/static/icons/white_arrow.svg" className="w-4 h-3" alt=""/>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ export default function Pratiques () {
                         <div className="text-sm">11 janvier 2024</div>
                         <div className="text-base font-medium mt-3">Lorem ipsum dolor almet</div>
                         <p className="w-7/8 text-xs mt-2">Integer laoreet vehicula risus, at imperdiet risus tempor a. Sed arcu neque, dictum id.</p>
-                        <div className="mt-4 w-8 h-8 bg-black flex items-center justify-center rounded-full">
+                        <div className="mt-4 w-8 h-8 bg-black flex items-center justify-center rounded-full cursor-pointer">
                             <img src="/static/icons/white_arrow.svg" className="w-4 h-3" alt=""/>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default function Pratiques () {
                         <div className="text-sm">11 janvier 2024</div>
                         <div className="text-base font-medium mt-3">Lorem ipsum dolor almet</div>
                         <p className="w-7/8 text-xs mt-2">Integer laoreet vehicula risus, at imperdiet risus tempor a. Sed arcu neque, dictum id.</p>
-                        <div className="mt-4 w-8 h-8 bg-black flex items-center justify-center rounded-full">
+                        <div className="mt-4 w-8 h-8 bg-black flex items-center justify-center rounded-full cursor-pointer">
                             <img src="/static/icons/white_arrow.svg" className="w-4 h-3" alt=""/>
                         </div>
                     </div>

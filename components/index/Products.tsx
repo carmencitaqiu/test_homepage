@@ -27,17 +27,17 @@ export default function Products() {
                 <Image src="/static/icons/slider_left.svg" width={35} height={70} alt="right_arrow" />
             </div> */}
             <div className="mx-auto container">
-                <Swiper pagination={{ clickable: true, el: '' }} spaceBetween={44} slidesPerView={4} 
+                <Swiper pagination={{ clickable: true, el: '' }} spaceBetween={20} slidesPerView={4} 
                 modules={[Navigation]}
                 navigation
                 className="!pt-12"
                 >
                     {
                         arr.map((item, index) => (
-                            <SwiperSlide className="!overflow-visible " key={index}>
+                            <SwiperSlide  key={index}>
                                 <div>
                                     <div className="w-full h-[344px]  bg-white-1 rounded-3xl relative !overflow-visible">
-                                        <div className="absolute z-10 -top-16 left-1/2 w-96 h-96 bg-contain -translate-x-1/2" style={{backgroundImage: `url("/static/images/${item.imgSrc}")`}}>
+                                        <div className="absolute z-10 -top-16 left-1/2 w-86 h-86 bg-contain -translate-x-1/2" style={{backgroundImage: `url("/static/images/${item.imgSrc}")`}}>
                                         </div>
                                         <div className="absolute bottom-6 left-4  font-medium text-left">{item.title}</div>
                                     </div>

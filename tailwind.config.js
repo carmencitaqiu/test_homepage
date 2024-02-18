@@ -72,7 +72,8 @@ module.exports = {
       height: {
         "15": "60px",
         "21": "84px",
-        "17": "70px"
+        "17": "70px",
+        "86": "344px"
       },
       minWidth: {
         "24": "96px"
@@ -82,7 +83,8 @@ module.exports = {
       },
       width: {
         "17": "70px",
-        "50": "200px"
+        "50": "200px",
+        "86": "344px"
       },
       zIndex: {
         "1": "1"
